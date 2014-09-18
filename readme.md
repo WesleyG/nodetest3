@@ -2,14 +2,28 @@ re-working through
 http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
 
 stopping at: 
------
-SO … with the server restarted, navigate to http://localhost:3000/helloworld and enjoy the completely asinine text that gets displayed:
------
+  -----
+  Now that we've got one record, let's add a a couple more. In your Mongo console, type the following:
+  -----
 
-cals 1924
-carbs 31
-fat 75
-prot 247
-sod 1688
+MongoDB
 
-total cooked weight 33 oz
+  enter into command prompt:
+
+  $ mongod --dbpath /Users/wes/node_projects/nodetest3/data
+
+  they when it's done enter into command prompt:
+
+  $ mongo
+
+  then in mongo console enter
+
+  > use nodetest3
+
+  to enter data:
+
+  > db.usercollection.insert({ "username" : "testuser1", "email" : "testuser1@testdomain.com" })
+
+  to view data:
+
+  > db.usercollection.find().pretty()
