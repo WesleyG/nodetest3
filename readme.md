@@ -3,7 +3,7 @@ http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
 
 stopping at: 
   -----
-  We're all set. Save that file, and let's restart our node server. Remember how to do that? Go to your command prompt, head for C:\node\nodetest1\ and ctrl-c to kill your server if it's still running from way back before. Then type:
+  We are officially reading and writing from a MongoDB database using Node.js, Express, and Jade. You are now what the kids call a "full stack" developer (probably not a GOOD one, just yet, but I didn't promise that).
   -----
 
 MongoDB
