@@ -3,7 +3,7 @@ http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
 
 stopping at: 
   -----
-  Now that we've got one record, let's add a a couple more. In your Mongo console, type the following:
+  We're all set. Save that file, and let's restart our node server. Remember how to do that? Go to your command prompt, head for C:\node\nodetest1\ and ctrl-c to kill your server if it's still running from way back before. Then type:
   -----
 
 MongoDB
